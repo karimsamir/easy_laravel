@@ -1,10 +1,10 @@
 <?php
 
-namespace todoparrot\Http\Controllers\Auth;
+namespace Todoparrot\Http\Controllers\Auth;
 
-use todoparrot\User;
+use Todoparrot\User;
 use Validator;
-use todoparrot\Http\Controllers\Controller;
+use Todoparrot\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

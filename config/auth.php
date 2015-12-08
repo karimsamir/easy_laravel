@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => todoparrot\User::class,
+    'model' => Todoparrot\User::class,
 
     /*
     |--------------------------------------------------------------------------

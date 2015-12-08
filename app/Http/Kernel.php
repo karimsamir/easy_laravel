@@ -1,6 +1,6 @@
 <?php
 
-namespace todoparrot\Http;
+namespace Todoparrot\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -13,11 +13,11 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
-        \todoparrot\Http\Middleware\EncryptCookies::class,
+        \Todoparrot\Http\Middleware\EncryptCookies::class,
         \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
         \Illuminate\Session\Middleware\StartSession::class,
         \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-        \todoparrot\Http\Middleware\VerifyCsrfToken::class,
+        \Todoparrot\Http\Middleware\VerifyCsrfToken::class,
     ];
 
     /**
@@ -26,8 +26,8 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \todoparrot\Http\Middleware\Authenticate::class,
+        'auth' => \Todoparrot\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'guest' => \todoparrot\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \Todoparrot\Http\Middleware\RedirectIfAuthenticated::class,
     ];
 }

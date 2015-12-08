@@ -1,6 +1,6 @@
 <?php
 
-namespace todoparrot\Http\Middleware;
+namespace Todoparrot\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

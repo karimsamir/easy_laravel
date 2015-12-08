@@ -1,6 +1,6 @@
 <?php
 
-namespace todoparrot\Exceptions;
+namespace Todoparrot\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

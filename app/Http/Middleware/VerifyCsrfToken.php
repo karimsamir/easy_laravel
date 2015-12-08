@@ -1,6 +1,6 @@
 <?php
 
-namespace todoparrot\Http\Middleware;
+namespace Todoparrot\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 

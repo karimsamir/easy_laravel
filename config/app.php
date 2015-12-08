@@ -140,10 +140,13 @@ return [
         /*
          * Application Service Providers...
          */
-        todoparrot\Providers\AppServiceProvider::class,
-        todoparrot\Providers\AuthServiceProvider::class,
-        todoparrot\Providers\EventServiceProvider::class,
-        todoparrot\Providers\RouteServiceProvider::class,
+        Todoparrot\Providers\AppServiceProvider::class,
+        Todoparrot\Providers\AuthServiceProvider::class,
+        Todoparrot\Providers\EventServiceProvider::class,
+        Todoparrot\Providers\RouteServiceProvider::class,
+    		
+    	// Debuger
+    	Barryvdh\Debugbar\ServiceProvider::class,
 
     ],
 
@@ -193,6 +196,9 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+    		
+    	// Debuger
+    	'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],
 
