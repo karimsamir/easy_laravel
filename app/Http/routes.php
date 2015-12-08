@@ -17,4 +17,4 @@
 Route::get ( '/', [ 
 		'as' => 'home',
 		'uses' => 'WelcomeController@index' 
-] );
+] ); 
