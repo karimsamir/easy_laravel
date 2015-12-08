@@ -1,6 +1,6 @@
 <?php
 
-namespace todoparrot\Http\Middleware;
+namespace Todoparrot\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

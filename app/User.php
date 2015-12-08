@@ -1,6 +1,6 @@
 <?php
 
-namespace todoparrot;
+namespace Todoparrot;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
